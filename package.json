@@ -37,9 +37,9 @@
     "eslint-plugin-react": "^7.21.5",
     "prettier": "^2.1.2",
     "react": "^16.13.1",
-    "react-native": "^0.63.3",
-    "react-native-gesture-handler": "^1.6.1",
-    "react-native-reanimated": "^1.8.0",
+    "react-native": "^0.63.4",
+    "react-native-gesture-handler": "^1.9.0",
+    "react-native-reanimated": "^2.1.0",
     "typescript": "^3.8.3"
   }
 }
