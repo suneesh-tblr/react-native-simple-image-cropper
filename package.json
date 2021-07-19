@@ -3,12 +3,9 @@
   "version": "3.2.1",
   "description": "",
   "main": "build/index.js",
-  "types": "build/index.d.ts",
   "scripts": {
     "dev": "yarn tsc --watch",
-    "build": "rm -rf ./build/* && tsc",
-    "watch:example": "concurrently \"yarn dev\" \"yarn cpx 'src/**/*' 'example/node_modules/react-native-simple-image-cropper' --watch\"",
-    "build:example": "cpx 'build/**/*' 'example/node_modules/react-native-simple-image-cropper'"
+    "watch:example": "concurrently \"yarn dev\" \"yarn cpx 'src/**/*' 'example/node_modules/react-native-simple-image-cropper' --watch\""
   },
   "repository": {
     "type": "git",
